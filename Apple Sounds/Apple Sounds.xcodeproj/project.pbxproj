@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2B54DBB1FAE00910040EFEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B54DBA1FAE00910040EFEA /* AppDelegate.swift */; };
+		D2B54DBD1FAE00910040EFEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B54DBC1FAE00910040EFEA /* ViewController.swift */; };
+		D2B54DC01FAE00910040EFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B54DBE1FAE00910040EFEA /* Main.storyboard */; };
+		D2B54DC21FAE00910040EFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B54DC11FAE00910040EFEA /* Assets.xcassets */; };
+		D2B54DC51FAE00910040EFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B54DC31FAE00910040EFEA /* LaunchScreen.storyboard */; };
+		D2B54DD01FAE00910040EFEA /* Apple_SoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B54DCF1FAE00910040EFEA /* Apple_SoundsTests.swift */; };
+		D2B54DDB1FAE00910040EFEA /* Apple_SoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B54DDA1FAE00910040EFEA /* Apple_SoundsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2B54DCC1FAE00910040EFEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2B54DAF1FAE00910040EFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B54DB61FAE00910040EFEA;
+			remoteInfo = "Apple Sounds";
+		};
+		D2B54DD71FAE00910040EFEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2B54DAF1FAE00910040EFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B54DB61FAE00910040EFEA;
+			remoteInfo = "Apple Sounds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2B54DB71FAE00910040EFEA /* Apple Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B54DBA1FAE00910040EFEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2B54DBC1FAE00910040EFEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2B54DBF1FAE00910040EFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2B54DC11FAE00910040EFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2B54DC41FAE00910040EFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2B54DC61FAE00910040EFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B54DCB1FAE00910040EFEA /* Apple SoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple SoundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B54DCF1FAE00910040EFEA /* Apple_SoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_SoundsTests.swift; sourceTree = "<group>"; };
+		D2B54DD11FAE00910040EFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B54DD61FAE00910040EFEA /* Apple SoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple SoundsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B54DDA1FAE00910040EFEA /* Apple_SoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_SoundsUITests.swift; sourceTree = "<group>"; };
+		D2B54DDC1FAE00910040EFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2B54DB41FAE00910040EFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B54DC81FAE00910040EFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B54DD31FAE00910040EFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2B54DAE1FAE00910040EFEA = {
+			isa = PBXGroup;
+			children = (
+				D2B54DB91FAE00910040EFEA /* Apple Sounds */,
+				D2B54DCE1FAE00910040EFEA /* Apple SoundsTests */,
+				D2B54DD91FAE00910040EFEA /* Apple SoundsUITests */,
+				D2B54DB81FAE00910040EFEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2B54DB81FAE00910040EFEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2B54DB71FAE00910040EFEA /* Apple Sounds.app */,
+				D2B54DCB1FAE00910040EFEA /* Apple SoundsTests.xctest */,
+				D2B54DD61FAE00910040EFEA /* Apple SoundsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2B54DB91FAE00910040EFEA /* Apple Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D2B54DBA1FAE00910040EFEA /* AppDelegate.swift */,
+				D2B54DBC1FAE00910040EFEA /* ViewController.swift */,
+				D2B54DBE1FAE00910040EFEA /* Main.storyboard */,
+				D2B54DC11FAE00910040EFEA /* Assets.xcassets */,
+				D2B54DC31FAE00910040EFEA /* LaunchScreen.storyboard */,
+				D2B54DC61FAE00910040EFEA /* Info.plist */,
+			);
+			path = "Apple Sounds";
+			sourceTree = "<group>";
+		};
+		D2B54DCE1FAE00910040EFEA /* Apple SoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2B54DCF1FAE00910040EFEA /* Apple_SoundsTests.swift */,
+				D2B54DD11FAE00910040EFEA /* Info.plist */,
+			);
+			path = "Apple SoundsTests";
+			sourceTree = "<group>";
+		};
+		D2B54DD91FAE00910040EFEA /* Apple SoundsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2B54DDA1FAE00910040EFEA /* Apple_SoundsUITests.swift */,
+				D2B54DDC1FAE00910040EFEA /* Info.plist */,
+			);
+			path = "Apple SoundsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2B54DB61FAE00910040EFEA /* Apple Sounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B54DDF1FAE00910040EFEA /* Build configuration list for PBXNativeTarget "Apple Sounds" */;
+			buildPhases = (
+				D2B54DB31FAE00910040EFEA /* Sources */,
+				D2B54DB41FAE00910040EFEA /* Frameworks */,
+				D2B54DB51FAE00910040EFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apple Sounds";
+			productName = "Apple Sounds";
+			productReference = D2B54DB71FAE00910040EFEA /* Apple Sounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2B54DCA1FAE00910040EFEA /* Apple SoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B54DE21FAE00910040EFEA /* Build configuration list for PBXNativeTarget "Apple SoundsTests" */;
+			buildPhases = (
+				D2B54DC71FAE00910040EFEA /* Sources */,
+				D2B54DC81FAE00910040EFEA /* Frameworks */,
+				D2B54DC91FAE00910040EFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2B54DCD1FAE00910040EFEA /* PBXTargetDependency */,
+			);
+			name = "Apple SoundsTests";
+			productName = "Apple SoundsTests";
+			productReference = D2B54DCB1FAE00910040EFEA /* Apple SoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2B54DD51FAE00910040EFEA /* Apple SoundsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B54DE51FAE00910040EFEA /* Build configuration list for PBXNativeTarget "Apple SoundsUITests" */;
+			buildPhases = (
+				D2B54DD21FAE00910040EFEA /* Sources */,
+				D2B54DD31FAE00910040EFEA /* Frameworks */,
+				D2B54DD41FAE00910040EFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2B54DD81FAE00910040EFEA /* PBXTargetDependency */,
+			);
+			name = "Apple SoundsUITests";
+			productName = "Apple SoundsUITests";
+			productReference = D2B54DD61FAE00910040EFEA /* Apple SoundsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2B54DAF1FAE00910040EFEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Rinson;
+				TargetAttributes = {
+					D2B54DB61FAE00910040EFEA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D2B54DCA1FAE00910040EFEA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2B54DB61FAE00910040EFEA;
+					};
+					D2B54DD51FAE00910040EFEA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2B54DB61FAE00910040EFEA;
+					};
+				};
+			};
+			buildConfigurationList = D2B54DB21FAE00910040EFEA /* Build configuration list for PBXProject "Apple Sounds" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2B54DAE1FAE00910040EFEA;
+			productRefGroup = D2B54DB81FAE00910040EFEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2B54DB61FAE00910040EFEA /* Apple Sounds */,
+				D2B54DCA1FAE00910040EFEA /* Apple SoundsTests */,
+				D2B54DD51FAE00910040EFEA /* Apple SoundsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2B54DB51FAE00910040EFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B54DC51FAE00910040EFEA /* LaunchScreen.storyboard in Resources */,
+				D2B54DC21FAE00910040EFEA /* Assets.xcassets in Resources */,
+				D2B54DC01FAE00910040EFEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B54DC91FAE00910040EFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B54DD41FAE00910040EFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2B54DB31FAE00910040EFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B54DBD1FAE00910040EFEA /* ViewController.swift in Sources */,
+				D2B54DBB1FAE00910040EFEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B54DC71FAE00910040EFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B54DD01FAE00910040EFEA /* Apple_SoundsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B54DD21FAE00910040EFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B54DDB1FAE00910040EFEA /* Apple_SoundsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2B54DCD1FAE00910040EFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2B54DB61FAE00910040EFEA /* Apple Sounds */;
+			targetProxy = D2B54DCC1FAE00910040EFEA /* PBXContainerItemProxy */;
+		};
+		D2B54DD81FAE00910040EFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2B54DB61FAE00910040EFEA /* Apple Sounds */;
+			targetProxy = D2B54DD71FAE00910040EFEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2B54DBE1FAE00910040EFEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B54DBF1FAE00910040EFEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2B54DC31FAE00910040EFEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B54DC41FAE00910040EFEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2B54DDD1FAE00910040EFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2B54DDE1FAE00910040EFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2B54DE01FAE00910040EFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V97H765GZ8;
+				INFOPLIST_FILE = "Apple Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rinson.Apple-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2B54DE11FAE00910040EFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V97H765GZ8;
+				INFOPLIST_FILE = "Apple Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rinson.Apple-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2B54DE31FAE00910040EFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V97H765GZ8;
+				INFOPLIST_FILE = "Apple SoundsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rinson.Apple-SoundsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple Sounds.app/Apple Sounds";
+			};
+			name = Debug;
+		};
+		D2B54DE41FAE00910040EFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V97H765GZ8;
+				INFOPLIST_FILE = "Apple SoundsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rinson.Apple-SoundsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple Sounds.app/Apple Sounds";
+			};
+			name = Release;
+		};
+		D2B54DE61FAE00910040EFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V97H765GZ8;
+				INFOPLIST_FILE = "Apple SoundsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rinson.Apple-SoundsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apple Sounds";
+			};
+			name = Debug;
+		};
+		D2B54DE71FAE00910040EFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V97H765GZ8;
+				INFOPLIST_FILE = "Apple SoundsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rinson.Apple-SoundsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apple Sounds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2B54DB21FAE00910040EFEA /* Build configuration list for PBXProject "Apple Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B54DDD1FAE00910040EFEA /* Debug */,
+				D2B54DDE1FAE00910040EFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B54DDF1FAE00910040EFEA /* Build configuration list for PBXNativeTarget "Apple Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B54DE01FAE00910040EFEA /* Debug */,
+				D2B54DE11FAE00910040EFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B54DE21FAE00910040EFEA /* Build configuration list for PBXNativeTarget "Apple SoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B54DE31FAE00910040EFEA /* Debug */,
+				D2B54DE41FAE00910040EFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B54DE51FAE00910040EFEA /* Build configuration list for PBXNativeTarget "Apple SoundsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B54DE61FAE00910040EFEA /* Debug */,
+				D2B54DE71FAE00910040EFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2B54DAF1FAE00910040EFEA /* Project object */;
+}
